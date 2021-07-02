@@ -5,10 +5,10 @@ public class Answer {
 	}
 	
 	public String reverse(String input) {
-	    if (input.length() == 0) {
-	        throw new NullPointerException("Please insert the input");
-	    } else {
-	    	String output = "";
+		if (input.length() == 0) {
+			throw new NullPointerException("Please insert the input");
+		} else {
+			String output = "";
 	    	
 	    	for (int i = input.length() - 1; i >= 0; i--) {
 	    		output = output + input.charAt(i);
