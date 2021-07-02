@@ -9,11 +9,10 @@ public class Answer {
 			throw new NullPointerException("Please insert the input");
 		} else {
 			String output = "";
-	    	
-	    	for (int i = input.length() - 1; i >= 0; i--) {
-	    		output = output + input.charAt(i);
-	    	}
-	    	
+			
+			for (int i = input.length() - 1; i >= 0; i--) {
+				output = output + input.charAt(i);
+			}
 	    	return output;
 	    }
 	}
